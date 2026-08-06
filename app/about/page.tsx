@@ -31,13 +31,12 @@ export default function AboutPage() {
       <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
         <div className="absolute -top-40 -left-40 size-[800px] rounded-full bg-navy/10 blur-[120px]" />
         <div className="absolute -bottom-10 -right-40 size-[800px] rounded-full bg-brand-red/5 blur-[120px]" />
-        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-background to-transparent" />
       </div>
 
       <StoneNavbar />
       <main className="pt-28 pb-20 relative z-10">
         <div className="container mx-auto px-6 max-w-4xl">
-          
+
           {/* --- HERO SECTION --- */}
           <div className="mb-16 text-center">
             <span className="text-sm font-semibold uppercase tracking-wide text-brand-red">
@@ -54,11 +53,11 @@ export default function AboutPage() {
               <Map className="size-5" />
               <span>{a.funnelKicker}</span>
             </div>
-            
+
             <h2 className="font-heading text-2xl font-bold text-navy mb-4">
               {a.funnelTitle}
             </h2>
-            
+
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
                 <strong className="text-navy">{a.funnelStep1Label}</strong>{a.funnelStep1}
@@ -100,7 +99,7 @@ export default function AboutPage() {
             <h2 className="font-heading text-2xl font-bold text-navy mb-4">
               {a.costTitle}
             </h2>
-            
+
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
                 {a.costP1Plain}<strong className="text-navy">{a.costP1Emph}</strong>
@@ -120,13 +119,13 @@ export default function AboutPage() {
           {/* --- SECTION 3: OUR SOLUTION --- */}
           <div className="mb-16 rounded-2xl bg-navy p-8 md:p-12 text-white shadow-xl relative overflow-hidden">
             <div className="absolute top-0 right-0 w-1/2 h-full bg-brand-red/5 blur-[80px] pointer-events-none" />
-            
+
             <div className="relative z-10">
               <h2 className="font-heading text-2xl font-bold text-white mb-4 flex items-center gap-2">
                 <Zap className="size-5 text-brand-red" />
                 {a.solutionTitle}
               </h2>
-              
+
               <p className="text-navy-muted leading-relaxed max-w-3xl">
                 {a.solutionP1}
               </p>
