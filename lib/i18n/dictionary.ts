@@ -40,12 +40,12 @@ export const dictionary = {
         {
           title: "Un aperçu en 24 heures",
           description:
-            "À partir de ce que vous avez déjà, nous construisons un aperçu de votre nouveau site en moins de 24 heures — avant que vous ayez à vous engager.",
+            "À partir de ce que vous avez déjà, nous construisons un aperçu de votre nouveau site en moins de 24 heures, avant que vous ayez à vous engager.",
         },
         {
           title: "Un accompagnement humain",
           description:
-            "Un interlocuteur dédié du début à la fin. Pas de robots, pas de jargon technique — juste une équipe qui vous écoute et prend soin de vous.",
+            "Un interlocuteur dédié du début à la fin. Pas de robots, pas de jargon technique, juste une équipe qui vous écoute et prend soin de vous.",
         },
         {
           title: "Votre satisfaction garantie",
@@ -506,12 +506,12 @@ export const dictionary = {
         {
           title: "A preview within 24 hours",
           description:
-            "Using what you already have, we build a preview of your new website in less than 24 hours — before you have to commit to anything.",
+            "Using what you already have, we build a preview of your new website in less than 24 hours, before you have to commit to anything.",
         },
         {
           title: "Real human support",
           description:
-            "One dedicated point of contact from start to finish. No bots, no technical jargon — just a team that listens and takes good care of you.",
+            "One dedicated point of contact from start to finish. No bots, no technical jargon, just a team that listens and takes good care of you.",
         },
         {
           title: "Your satisfaction guaranteed",
