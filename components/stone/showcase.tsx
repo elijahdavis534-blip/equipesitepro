@@ -79,7 +79,7 @@ export function ProjectShowcase() {
               exit={{ scale: 0.8, y: 20 }}
               transition={{ type: "spring", damping: 25 }}
               onClick={(e) => e.stopPropagation()}
-              className="relative max-w-5xl w-full rounded-2xl bg-navy border border-white/10 overflow-hidden shadow-2xl"
+              className="relative flex max-h-[90vh] w-full max-w-5xl flex-col overflow-hidden rounded-2xl border border-white/10 bg-navy shadow-2xl"
             >
               {/* Close Button */}
               <button
@@ -89,7 +89,7 @@ export function ProjectShowcase() {
                 <X className="size-6" />
               </button>
 
-              <div className="bg-navy-deep border-b border-white/10 p-6 text-center">
+              <div className="shrink-0 bg-navy-deep border-b border-white/10 p-6 text-center">
                 <h3 className="text-2xl font-bold text-white">{selectedProject.title}</h3>
                 <p className="text-sm text-navy-muted">
                   {tc.categories[selectedProject.category] ?? selectedProject.category}
@@ -97,7 +97,7 @@ export function ProjectShowcase() {
               </div>
 
               {/* Split Screen Comparison */}
-              <div className="flex flex-col md:flex-row h-full min-h-[450px]">
+              <div className="flex min-h-0 flex-1 flex-col overflow-y-auto md:flex-row md:min-h-[450px]">
                 <div className="relative w-full md:w-1/2 aspect-square md:aspect-auto bg-navy-muted/20 border-b md:border-b-0 md:border-r border-white/10">
                   <Image
                     src={selectedProject.beforeImage}
@@ -126,7 +126,7 @@ export function ProjectShowcase() {
               </div>
 
               {/* --- NEW: GLOWING VISIT BUTTON --- */}
-              <div className="bg-navy-deep border-t border-white/10 p-6 flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="shrink-0 bg-navy-deep border-t border-white/10 p-6 flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="flex-1 text-center md:text-left">
                   <p className="text-lg italic text-navy-muted">
                     &quot;<span className="text-white font-medium">{tc.quotePart1}</span>{tc.quotePart2}<span className="text-brand-red font-semibold">{tc.quotePart3}</span>.&quot;
