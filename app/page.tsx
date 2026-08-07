@@ -1,6 +1,5 @@
 import { StoneNavbar } from "@/components/stone/navbar"
 import { StoneHero } from "@/components/stone/hero"
-import { PreviewPromise } from "@/components/stone/preview-promise"
 import { StoneProblem } from "@/components/stone/problem"
 import { StoneOutcomes } from "@/components/stone/outcomes"  // <--- CHANGED IMPORT
 import { StoneHowItWorks } from "@/components/stone/how-it-works"
@@ -18,7 +17,6 @@ export default function Page() {
       <StoneNavbar />
       <main>
         <StoneHero />
-        <PreviewPromise />
         <StoneProblem />
         <StoneOutcomes />      {/* <--- CHANGED COMPONENT */}
         <StoneHowItWorks />
