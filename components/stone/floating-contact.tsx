@@ -20,14 +20,14 @@ export function FloatingContact() {
             className="flex flex-col gap-2"
           >
             <a
-              href="tel:+15141234567"
+              href="tel:+15149770491"
               className="flex items-center gap-2 rounded-full bg-brand-red px-4 py-2 text-sm font-medium text-white shadow-lg shadow-brand-red/25 hover:bg-brand-red/90 transition-colors"
             >
               <Phone className="size-4" />
               {t.floatingContact.call}
             </a>
             <a
-              href="mailto:info@equipesitepro.com"
+              href="mailto:info@equipesitepro.ca"
               className="flex items-center gap-2 rounded-full bg-brand-red px-4 py-2 text-sm font-medium text-white shadow-lg shadow-brand-red/25 hover:bg-brand-red/90 transition-colors"
             >
               <MessageCircle className="size-4" />
