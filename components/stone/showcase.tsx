@@ -103,7 +103,7 @@ export function ProjectShowcase() {
                     src={selectedProject.beforeImage}
                     alt={`${selectedProject.title} - ${tc.before}`}
                     fill
-                    className="object-contain"
+                    className="object-cover"
                   />
                   <div className="absolute bottom-4 left-4 rounded-lg bg-black/70 px-3 py-1.5 text-sm font-semibold text-white backdrop-blur-sm border border-white/10">
                     {tc.simple}
@@ -111,12 +111,12 @@ export function ProjectShowcase() {
                   <div className="absolute top-4 left-4 text-xs font-medium text-navy-muted">{tc.before}</div>
                 </div>
 
-                <div className="relative w-full md:w-1/2 aspect-square md:aspect-auto min-h-[300px] bg-navy-muted/20">
+                <div className="relative w-full md:w-1/2 aspect-square md:aspect-auto bg-navy-muted/20">
                   <Image
                     src={selectedProject.afterImage}
                     alt={`${selectedProject.title} - ${tc.after}`}
                     fill
-                    className="object-contain"
+                    className="object-cover"
                   />
                   <div className="absolute bottom-4 left-4 rounded-lg bg-brand-red px-3 py-1.5 text-sm font-semibold text-white backdrop-blur-sm shadow-lg shadow-brand-red/30">
                     {tc.pro}
