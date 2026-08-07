@@ -33,30 +33,6 @@ const showcaseProjects = [
     afterImage: "/showcase-3-after.jpg",
     liveUrl: "https://electricien-pro-equipesitepro.vercel.app",
   },
-  {
-    id: 4,
-    title: "Restaurant Le Chef",
-    category: "Commerce",
-    beforeImage: "/showcase-4-before.jpg",
-    afterImage: "/showcase-4-after.jpg",
-    liveUrl: "https://restaurant-lechef-equipesitepro.vercel.app",
-  },
-  {
-    id: 5,
-    title: "Clinique Dentaire",
-    category: "Service",
-    beforeImage: "/showcase-5-before.jpg",
-    afterImage: "/showcase-5-after.jpg",
-    liveUrl: "https://clinique-dentaire-equipesitepro.vercel.app",
-  },
-  {
-    id: 6,
-    title: "Garage Auto",
-    category: "Service",
-    beforeImage: "/showcase-6-before.jpg",
-    afterImage: "/showcase-6-after.jpg",
-    liveUrl: "https://garage-auto-equipesitepro.vercel.app",
-  },
 ]
 
 export function ProjectShowcase() {
