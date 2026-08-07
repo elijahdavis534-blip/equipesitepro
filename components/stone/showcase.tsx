@@ -23,7 +23,7 @@ const showcaseProjects = [
     category: "Naturopathe",
     beforeImage: "/showcase-2-before.jpg",
     afterImage: "/showcase-2-after.jpg",
-    liveUrl: "https://paysagiste-montreal-equipesitepro.vercel.app",
+    liveUrl: "https://iridology-canada.vercel.app",
   },
   {
     id: 3,
