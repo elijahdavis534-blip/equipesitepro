@@ -15,7 +15,7 @@ const showcaseProjects = [
     category: "Massothérapeute",
     beforeImage: "/showcase-1-before.jpg",
     afterImage: "/showcase-1-after.jpg",
-    liveUrl: "https://zero-tension-sport-excellence-lt6r.vercel.app", 
+    liveUrl: "https://zero-tension-sport-excellence-lt6r.vercel.app",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const showcaseProjects = [
     category: "Naturopathe",
     beforeImage: "/showcase-2-before.jpg",
     afterImage: "/showcase-2-after.jpg",
-    liveUrl: "https://paysagiste-montreal-equipesitepro.vercel.app",
+    liveUrl: "https://iridology-canada.vercel.app",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const showcaseProjects = [
     category: "Education",
     beforeImage: "/showcase-3-before.jpg",
     afterImage: "/showcase-3-after.jpg",
-    liveUrl: "https://electricien-pro-equipesitepro.vercel.app",
+    liveUrl: "https://alchimiefinanciere.ca",
   },
 ]
 
@@ -132,7 +132,7 @@ export function ProjectShowcase() {
                     &quot;<span className="text-white font-medium">{tc.quotePart1}</span>{tc.quotePart2}<span className="text-brand-red font-semibold">{tc.quotePart3}</span>.&quot;
                   </p>
                 </div>
-                
+
                 <a
                   href={selectedProject.liveUrl}
                   target="_blank"
