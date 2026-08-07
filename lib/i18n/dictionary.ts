@@ -31,6 +31,35 @@ export const dictionary = {
       ctaPrimary: "Obtenez votre consultation gratuite",
       ctaSecondary: "Voir comment ça marche",
     },
+    preview: {
+      eyebrow: "Notre engagement envers vous",
+      title: "Recevez un aperçu de votre site transformé en 24h",
+      description:
+        "Avant même de vous engager, nous vous montrons ce que votre nouveau site peut devenir. Nous sommes là pour vous accompagner à chaque étape.",
+      cards: [
+        {
+          title: "Un aperçu en 24 heures",
+          description:
+            "À partir de ce que vous avez déjà, nous construisons un aperçu de votre nouveau site en moins de 24 heures, avant que vous ayez à vous engager.",
+        },
+        {
+          title: "Un accompagnement humain",
+          description:
+            "Un interlocuteur dédié du début à la fin. Pas de robots, pas de jargon technique, juste une équipe qui vous écoute et prend soin de vous.",
+        },
+        {
+          title: "Votre satisfaction garantie",
+          description:
+            "Nous ajustons votre site jusqu'à ce qu'il vous ressemble parfaitement. Votre confiance et votre tranquillité d'esprit sont notre priorité.",
+        },
+      ],
+      stats: [
+        { value: "24h", label: "Aperçu offert" },
+        { value: "0 $", label: "Sans engagement" },
+        { value: "100 %", label: "Clients satisfaits" },
+      ],
+      cta: "Recevez votre aperçu gratuit",
+    },
     trustedLogos: {
       label: "Ils nous font confiance",
     },
@@ -467,6 +496,35 @@ export const dictionary = {
         "A modern design, smooth navigation, and an online presence that inspires confidence. We build websites that reflect the quality of your work and turn visitors into customers.",
       ctaPrimary: "Get your free consultation",
       ctaSecondary: "See how it works",
+    },
+    preview: {
+      eyebrow: "Our commitment to you",
+      title: "Receive a preview of your transformed website in 24h",
+      description:
+        "Before you commit to anything, we show you what your new website can become. We are here to support you every step of the way.",
+      cards: [
+        {
+          title: "A preview within 24 hours",
+          description:
+            "Using what you already have, we build a preview of your new website in less than 24 hours, before you have to commit to anything.",
+        },
+        {
+          title: "Real human support",
+          description:
+            "One dedicated point of contact from start to finish. No bots, no technical jargon, just a team that listens and takes good care of you.",
+        },
+        {
+          title: "Your satisfaction guaranteed",
+          description:
+            "We refine your website until it fits you perfectly. Your trust and peace of mind are our top priority.",
+        },
+      ],
+      stats: [
+        { value: "24h", label: "Free preview" },
+        { value: "$0", label: "No commitment" },
+        { value: "100%", label: "Happy clients" },
+      ],
+      cta: "Get your free preview",
     },
     trustedLogos: {
       label: "Trusted by",
