@@ -27,8 +27,8 @@ const showcaseProjects = [
   },
   {
     id: 3,
-    title: "Électricien Pro",
-    category: "Service",
+    title: "Alchimie financier",
+    category: "Education",
     beforeImage: "/showcase-3-before.jpg",
     afterImage: "/showcase-3-after.jpg",
     liveUrl: "https://electricien-pro-equipesitepro.vercel.app",
