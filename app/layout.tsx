@@ -13,9 +13,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "ÉquipeSitePRO — Votre site web professionnel au service de votre entreprise",
+  title: "ÉquipeSitePRO | Sites Web Professionnels",
   description:
-    "Nous construisons des sites web modernes et professionnels pour les entrepreneurs québécois. Design, configuration, et optimisation locale. Offre de lancement : site gratuit pendant 2 semaines.",
+    "Nous construisons des sites web modernes et professionnels.",
   generator: "v0.app",
 };
 
