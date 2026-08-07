@@ -17,6 +17,13 @@ export default function Page() {
       <StoneNavbar />
       <main>
         <StoneHero />
+        <div className="bg-navy" aria-hidden="true">
+          <div className="container mx-auto flex items-center justify-center gap-4 px-6 py-2">
+            <span className="h-px w-full max-w-xs bg-gradient-to-r from-transparent to-white/20" />
+            <span className="size-2 shrink-0 rotate-45 bg-brand-red shadow-[0_0_16px_2px_rgba(220,38,38,0.5)]" />
+            <span className="h-px w-full max-w-xs bg-gradient-to-l from-transparent to-white/20" />
+          </div>
+        </div>
         <StoneProblem />
         <StoneOutcomes />      {/* <--- CHANGED COMPONENT */}
         <StoneHowItWorks />
