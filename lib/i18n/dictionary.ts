@@ -35,17 +35,17 @@ export const dictionary = {
       eyebrow: "Notre engagement envers vous",
       title: "Recevez un aperçu de votre site transformé en 24h",
       description:
-        "Avant même de vous engager, nous vous montrons ce que votre nouveau site peut devenir. Nous sommes là pour vous accompagner à chaque étape, et nous prenons soin de nos clients comme s'il s'agissait de notre propre entreprise.",
+        "Avant même de vous engager, nous vous montrons ce que votre nouveau site peut devenir. Nous sommes là pour vous accompagner à chaque étape.",
       cards: [
         {
           title: "Un aperçu en 24 heures",
           description:
-            "Recevez une première maquette de votre nouveau site en moins de 24 heures. Voyez concrètement votre transformation avant de prendre la moindre décision.",
+            "À partir de ce que vous avez déjà, nous construisons un aperçu de votre nouveau site en moins de 24 heures — avant que vous ayez à vous engager.",
         },
         {
           title: "Un accompagnement humain",
           description:
-            "Un interlocuteur dédié du début à la fin. Pas de robots, pas de jargon technique — juste une équipe qui vous écoute et qui répond.",
+            "Un interlocuteur dédié du début à la fin. Pas de robots, pas de jargon technique — juste une équipe qui vous écoute et prend soin de vous.",
         },
         {
           title: "Votre satisfaction garantie",
@@ -501,17 +501,17 @@ export const dictionary = {
       eyebrow: "Our commitment to you",
       title: "Receive a preview of your transformed website in 24h",
       description:
-        "Before you commit to anything, we show you what your new website can become. We are here to support you every step of the way, and we take care of our clients as if it were our own business.",
+        "Before you commit to anything, we show you what your new website can become. We are here to support you every step of the way.",
       cards: [
         {
           title: "A preview within 24 hours",
           description:
-            "Get a first mockup of your new website in less than 24 hours. See your transformation in real terms before making any decision.",
+            "Using what you already have, we build a preview of your new website in less than 24 hours — before you have to commit to anything.",
         },
         {
           title: "Real human support",
           description:
-            "One dedicated point of contact from start to finish. No bots, no technical jargon — just a team that listens and responds.",
+            "One dedicated point of contact from start to finish. No bots, no technical jargon — just a team that listens and takes good care of you.",
         },
         {
           title: "Your satisfaction guaranteed",
