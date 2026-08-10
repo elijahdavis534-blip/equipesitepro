@@ -181,7 +181,7 @@ export const dictionary = {
       items: [
         {
           quote:
-            "Mon vieux site web datait de 2012. J'avais honte de l'envoyer a mes clients. EquipeSitePRO a rendu le processus tellement simple. Ils ont compris mon metier, ont pose les bonnes questions, et le resultat est un site de qualite. Merci."
+            "Mon vieux site web datait de 2012. J'avais honte de l'envoyer a mes clients. EquipeSitePRO a rendu le processus tellement simple. Ils ont compris mon metier, ont pose les bonnes questions, et le resultat est un site de qualite. Merci.",
           name: "Jean Marchand",
           role: "Propriétaire, Couverture Marchand Inc.",
         },
