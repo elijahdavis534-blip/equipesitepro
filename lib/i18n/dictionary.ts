@@ -187,7 +187,7 @@ export const dictionary = {
         },
         {
           quote:
-            "Mon ancien site mettait 9 secondes à charger et je perdais des clients. Le nouveau est instantané, et le formulaire de réservation remplit mon agenda automatiquement.",
+            "Mon ancien site, y prenait 9 secondes à charger, pis je perdais du monde. Là, le nouveau, c’est instantané, pis le formulaire de réservation, y remplit mon agenda tout seul.",
           name: "David Parc",
           role: "Propriétaire, Happy Tails Toilettage",
         },
@@ -934,11 +934,11 @@ export const dictionary = {
 type Widen<T> = T extends string
   ? string
   : T extends number
-    ? number
-    : T extends boolean
-      ? boolean
-      : T extends readonly (infer U)[]
-        ? readonly Widen<U>[]
-        : { readonly [K in keyof T]: Widen<T[K]> }
+  ? number
+  : T extends boolean
+  ? boolean
+  : T extends readonly (infer U)[]
+  ? readonly Widen<U>[]
+  : { readonly [K in keyof T]: Widen<T[K]> }
 
 export type Dictionary = Widen<(typeof dictionary)["fr"]>
