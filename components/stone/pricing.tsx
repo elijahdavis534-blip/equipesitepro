@@ -4,23 +4,20 @@ import { Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/lib/i18n/language-context"
 
-// Non-translatable data (highlight, booking link) stays in code and merges
-// by index with the translated plan copy (name, price, cadence, features) from the dictionary.
+// Non-translatable data (price, highlight, booking link) stays in code and merges
+// by index with the translated plan copy from the dictionary.
 const planMeta = [
   {
-    highlighted: false,
-    href: "https://cal.com/elijah-davis-dbbrz8/15min",
-    isBooking: true,
-  },
-  {
-    highlighted: true,
-    href: "https://cal.com/elijah-davis-dbbrz8/15min",
-    isBooking: true,
-  },
-  {
+    price: "2 000 $",
     highlighted: false,
     href: "/#contact",
     isBooking: false,
+  },
+  {
+    price: "97 $",
+    highlighted: true,
+    href: "https://cal.com/elijah-davis-dbbrz8/15min",
+    isBooking: true,
   },
 ]
 
@@ -45,7 +42,7 @@ export function Pricing() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto items-stretch">
+        <div className="grid gap-6 lg:grid-cols-2 max-w-4xl mx-auto">
           {plans.map((plan) => (
             <div
               key={plan.name}
