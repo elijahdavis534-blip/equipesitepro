@@ -181,7 +181,7 @@ export const dictionary = {
       items: [
         {
           quote:
-            "Mon vieux site web datait de 2012. J'avais honte de l'envoyer à mes clients. ÉquipeSitePRO a rendu le processus tellement simple. Ils ont compris mon métier, ont posé les bonnes questions, et le résultat est un site dont je suis fier.",
+            "Mon vieux site web datait de 2012. J'avais honte de l'envoyer a mes clients. EquipeSitePRO a rendu le processus tellement simple. Ils ont compris mon metier, ont pose les bonnes questions, et le resultat est un site de qualite. Merci."
           name: "Jean Marchand",
           role: "Propriétaire, Couverture Marchand Inc.",
         },
@@ -934,11 +934,11 @@ export const dictionary = {
 type Widen<T> = T extends string
   ? string
   : T extends number
-  ? number
-  : T extends boolean
-  ? boolean
-  : T extends readonly (infer U)[]
-  ? readonly Widen<U>[]
-  : { readonly [K in keyof T]: Widen<T[K]> }
+    ? number
+    : T extends boolean
+      ? boolean
+      : T extends readonly (infer U)[]
+        ? readonly Widen<U>[]
+        : { readonly [K in keyof T]: Widen<T[K]> }
 
 export type Dictionary = Widen<(typeof dictionary)["fr"]>
