@@ -55,7 +55,6 @@ export function Testimonials() {
 
                 <div>
                   <div className="font-semibold text-navy">{item.name}</div>
-                  <div className="text-sm text-muted-foreground">{item.role}</div>
                 </div>
               </figcaption>
             </figure>
