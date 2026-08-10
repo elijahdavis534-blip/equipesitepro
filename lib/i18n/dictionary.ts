@@ -181,13 +181,13 @@ export const dictionary = {
       items: [
         {
           quote:
-            "Mon vieux site web datait de 2012. J'avais honte de l'envoyer à mes clients. ÉquipeSitePRO a rendu le processus tellement simple. Ils ont compris mon métier, ont posé les bonnes questions, et le résultat est un site dont je suis fier.",
+            "Mon vieux site web datait de 2012. J'avais honte de l'envoyer a mes clients. EquipeSitePRO a rendu le processus tellement simple. Ils ont compris mon metier, ont pose les bonnes questions, et le resultat est un site de qualite. Merci.",
           name: "Jean Marchand",
           role: "Propriétaire, Couverture Marchand Inc.",
         },
         {
           quote:
-            "Mon ancien site mettait 9 secondes à charger et je perdais des clients. Le nouveau est instantané, et le formulaire de réservation remplit mon agenda automatiquement.",
+            "Mon ancien site, y prenait 9 secondes à charger, pis je perdais du monde. Là, le nouveau, c’est instantané, pis le formulaire de réservation, y remplit mon agenda tout seul.",
           name: "David Parc",
           role: "Propriétaire, Happy Tails Toilettage",
         },
