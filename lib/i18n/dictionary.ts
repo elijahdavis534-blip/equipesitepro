@@ -246,7 +246,7 @@ export const dictionary = {
         },
         {
           name: "Site Pro",
-          price: "197 $",
+          price: "147 $",
           cadence: "/mois",
           tag: "POPULAIRE",
           description:
@@ -263,7 +263,7 @@ export const dictionary = {
         },
         {
           name: "Site Sur Mesure",
-          price: "297 $",
+          price: "247 $",
           cadence: "/mois",
           tag: "",
           description:
@@ -285,7 +285,7 @@ export const dictionary = {
       items: [
         {
           q: "Combien coûte un site web ?",
-          a: "0 $ aujourd'hui. Vous commencez avec un aperçu gratuit, puis 197 $/mois seulement si vous êtes satisfait. Hébergement, sécurité, mises à jour et support sont inclus. Aucun frais initial.",
+          a: "0 $ aujourd'hui. Vous commencez avec un aperçu gratuit, puis 147 $/mois seulement si vous êtes satisfait. Hébergement, sécurité, mises à jour et support sont inclus. Aucun frais initial.",
         },
         {
           q: "Dois-je payer d'avance ?",
@@ -435,7 +435,7 @@ export const dictionary = {
       solutionCard2Value: "24h",
       solutionCard2Label: "Aperçu",
       solutionCard2Desc: "Un aperçu complet de votre site en 24 heures, sans engagement.",
-      solutionCard3Value: "197 $",
+      solutionCard3Value: "147 $",
       solutionCard3Label: "Par mois",
       solutionCard3Desc: "Site complet, hébergement, sécurité, mises à jour et support inclus.",
       comparisonTitle: "L'approche traditionnelle vs. Notre approche",
@@ -443,7 +443,7 @@ export const dictionary = {
       comparisonColVs: "VS",
       comparisonColUs: "ÉquipeSitePRO",
       comparisonRows: [
-        { traditional: "5 000 $ - 10 000 $ initial", us: "0 $ initial + 197 $/mois" },
+        { traditional: "5 000 $ - 10 000 $ initial", us: "0 $ initial + 147 $/mois" },
         { traditional: "Hébergement & sécurité en extra", us: "Hébergement, sécurité, sauvegardes inclus" },
         { traditional: "Disparaît après livraison", us: "Support mensuel et mises à jour inclus" },
       ],
@@ -734,7 +734,7 @@ export const dictionary = {
         },
         {
           name: "Pro Site",
-          price: "$197",
+          price: "$147",
           cadence: "/month",
           tag: "POPULAR",
           description:
@@ -751,7 +751,7 @@ export const dictionary = {
         },
         {
           name: "Custom Site",
-          price: "$297",
+          price: "$247",
           cadence: "/month",
           tag: "",
           description:
@@ -773,7 +773,7 @@ export const dictionary = {
       items: [
         {
           q: "How much does a website cost?",
-          a: "$0 today. You start with a free preview, then just $197/month if you're happy. Hosting, security, updates, and support are all included. No upfront cost.",
+          a: "$0 today. You start with a free preview, then just $147/month if you're happy. Hosting, security, updates, and support are all included. No upfront cost.",
         },
         {
           q: "Do I have to pay upfront?",
@@ -918,7 +918,7 @@ export const dictionary = {
       solutionCard2Value: "24h",
       solutionCard2Label: "Preview",
       solutionCard2Desc: "A complete preview of your website in 24 hours, no commitment.",
-      solutionCard3Value: "$197",
+      solutionCard3Value: "$147",
       solutionCard3Label: "Per month",
       solutionCard3Desc: "Complete site, hosting, security, updates, and support included.",
       comparisonTitle: "The traditional approach vs. Our approach",
@@ -926,7 +926,7 @@ export const dictionary = {
       comparisonColVs: "VS",
       comparisonColUs: "ÉquipeSitePRO",
       comparisonRows: [
-        { traditional: "$5,000 - $10,000 upfront", us: "$0 upfront + $197/month" },
+        { traditional: "$5,000 - $10,000 upfront", us: "$0 upfront + $147/month" },
         { traditional: "Hosting & security extra", us: "Hosting, security, backups included" },
         { traditional: "Disappears after delivery", us: "Monthly support and updates included" },
       ],
