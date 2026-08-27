@@ -17,11 +17,6 @@ const planMeta = [
     href: "https://cal.com/elijah-davis-dbbrz8/15min",
     isBooking: true,
   },
-  {
-    highlighted: false,
-    href: "/#contact",
-    isBooking: false,
-  },
 ]
 
 export function Pricing() {
@@ -45,7 +40,7 @@ export function Pricing() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto items-stretch">
+        <div className="grid gap-6 md:grid-cols-2 max-w-4xl mx-auto items-stretch">
           {plans.map((plan) => (
             <div
               key={plan.name}
